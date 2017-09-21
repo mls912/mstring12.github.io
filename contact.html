@@ -21,11 +21,27 @@
 	
 	<div id="main-container" class="container">
 		<section class="main-container">
-			<h1>About Me</h1>
-			<img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/21730853_10155209702343952_2578536445445476466_n.jpg?oh=acd03e767a84b35f3dae85f659b8daa9&oe=5A4E9D28" alt="Me" class="auth-image">
+			<h1>Contact</h1>
+			
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" placeholder="John Smith" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+						</label>
+					</li>
 
-			<p>Hi, I'm Matt and I like to party. And I like movies. I have an awesome wife who loves the U and I have alwasy been a fan of the Y. I cheer for the U as well, but this creates a fun rivaly for us when they play. I get harassed a lot by her as the Y just can't win.</p> 
-			<p>I work at a software company as a Customer Success Manager. I am hoping to learn how to code and develop so I can increase my knowledge and skill set.</p>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit" name="submit">
+
 		</section>
 
 		<section class="sidebar">
