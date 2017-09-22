@@ -120,7 +120,7 @@ nav a:first-child {
 	float: right;
 	border: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
-	/*margin-bottom: 0px;*/
+	margin-bottom: 0px;
 }
 
 h3, .sidebar, h2 {
