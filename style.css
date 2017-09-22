@@ -53,6 +53,7 @@ h2, h3 {
 	border-bottom: 2px solid #ccc;
 	width: 100%;
 	position: fixed;
+	opacity: 1;
 }
 
 #logo {
