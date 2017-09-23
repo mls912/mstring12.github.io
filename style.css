@@ -54,6 +54,7 @@ h2, h3 {
 	width: 100%;
 	position: fixed;
 	opacity: 1;
+	z-index: 9999;
 }
 
 #logo {
@@ -215,4 +216,18 @@ textarea {
 	border: 1px solid #ddd;
 	padding: 0 10px;
 	font-size: 14px;
+}
+
+textarea {
+	height: 200px;
+}
+
+input[type=submit] {
+	background: #4aaaa5;
+	border: 0 none;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 30px;
+	cursor: pointer;
+
 }
